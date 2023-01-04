@@ -1,12 +1,18 @@
 h1 {
     color: red;
-    font-size: 200px;
+    font-size: 100px; 
 }
 
 img {
     width: 200px;
-    background-color: red;
 }
+
+img:hover {
+    width: 300px;
+    background-color: gold;
+}
+
+ /* CLASS */
 
 .bacon {
     background-color: green;
@@ -15,3 +21,14 @@ img {
 .brocolis {
     background-color: red;
 }
+
+.circular {
+    border-radius: 100%;
+}
+
+/* ID */
+
+#heading {
+    color: blue;
+}
+
